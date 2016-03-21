@@ -1,8 +1,8 @@
 {
-  "name": "guessinggame",
-  "version": "1.0.0",
+  "name": "gulpSkeleton",
+  "version": "1.0.1",
   "description": "A simple rendition of the first code 201 project for GULP testing",
-  "main": "game.js",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/jakeherold/guessingGame"
+    "url": "github.com/jakeherold/gulpSkeleton"
   },
   "keywords": [
     "gulp",
