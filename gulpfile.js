@@ -3,7 +3,7 @@ var mocha  = require('gulp-mocha');
 var jshint = require('gulp-jshint');
 // var nodemon = require('gulp-nodemon')
 
-var js_src   = ['./*.js', './js/*.js', './test/*.js'];
+var js_src   = ['./*.js', './js/*.js','./scripts/*.js', './test/*.js'];
 var html_src = './*.html';
 
 gulp.task('lint', function() {

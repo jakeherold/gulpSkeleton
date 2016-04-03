@@ -1,4 +1,63 @@
 /*The hello world of CSS*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  border:1px, red;
+}
+body{
+  text-align: center;
+}
 h1 {
   color: red;
+}
+body{
+  background-image: url(/assets/images/trees.jpeg);
+}
+
+
+
+
+
+#totalWrapper{
+  background-color: white;
+  opacity: .9;
+}
+.banner{
+  width:100%;
+  height:10%;
+  opacity: .8;
+  z-index: 1;
+  position: absolute;
+  background-color: white;
+}
+
+.banner-text{
+  font-size: 3em;
+}
+
+.homeImage{
+  height:30%;
+  width:30%;
+  margin:1em;
+  padding:1em;
+  background-color: white;
+}
+
+.leftImage{
+  display: block;
+  height: 20%;
+  width:20%;
+}
+.rightImage{
+  display: inline;
+  height: 20%;
+  width:20%;
+}
+
+#topLeft{
+  background-image: url("/assets/images/tea.jpg")
+}
+#imagesWrapper{
+  margin-top: 300px;
 }
